@@ -3,5 +3,6 @@ public class Main {
         Calculator calculator = new Calculator();
 
         calculator.showMenu();
+        calculator.askMenuInput();
     }
 }
