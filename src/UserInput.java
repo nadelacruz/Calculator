@@ -7,8 +7,13 @@ public class UserInput {
         scanner = new Scanner(System.in);
     }
 
-    public int askUserInput() {
+    public int askUserChoice() {
         System.out.print("Your choice: ");
+        return scanner.nextInt();
+    }
+
+    public int askUserInput(){
+        System.out.print("Enter number: ");
         return scanner.nextInt();
     }
 }
